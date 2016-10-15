@@ -1,0 +1,128 @@
+.news {
+    height: auto;
+    width: 100%;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.news .nano {
+    height: 320px;
+    width: 100%
+}
+.news ul {
+    padding-left: 0;
+    width: 99%;
+    -webkit-transition: width 2s;
+    transition: width 2s
+}
+.news ul li {
+    position: relative;
+    height: 115px;
+    overflow: hidden;
+    list-style-type: none;
+    padding: 7px;
+    display: inline-block;
+    width: 217px;
+    padding: 10px 10px;
+    border: 1px solid #d4d4d5;
+    background-position: bottom;
+    background-size: 3px 1px;
+    background-repeat: repeat-x;
+    font-size: 14px;
+    font-family: "latoregular", "Helvetica", "Verdana", sans-serif;
+    margin: 10px;
+    background-color: #f2f2f3;
+}
+.news ul li a {
+    text-decoration: none;
+    color: #555;
+    display: block;
+    overflow: auto
+}
+.news ul li a:hover {
+    color: #2980b9
+}
+.news ul li .ico {
+    display: none;
+    width: 30px;
+    height: 30px;
+    float: left
+}
+.news ul li .ico .fa {
+    padding: 5px 40px 0 0;
+    color: #2E2E2E
+}
+.news ul li .ico .fa-2x {
+    font-size: 24px;
+    text-align: center
+}
+.news ul li .headline {
+    display: block;
+    width: 100%
+}
+.news ul li .postedTime {
+    float: right;
+    display: block;
+    text-align: right;
+    color: #AAA;
+    position: absolute;
+    bottom: 7px;
+    font-size: 12px;
+    padding-top: 5px;
+    border-top: 1px solid #DDD;
+}
+#prev-news {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  z-index: 2000;
+}
+
+#next-news {
+  position: absolute;
+  top: 250px;
+  right: 0;
+  z-index: 2000;
+}
+
+.news_main_top {
+  margin-left: 25px;
+}
+
+.caroufredsel_wrapper{
+margin:5px 0px !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box
+}
+
+body {
+    
+    line-height: 1.4em;
+    
+}
+
+.fa-chevron-left:before {
+    content: "\f053"
+}
+.fa-chevron-right:before {
+    content: "\f054"
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0)
+}
