@@ -3889,7 +3889,7 @@ ul.border li {
 }
 /** icon lists **/
 .arrow li:before {
-  content: '\e828';
+  fa fa-arrow-right;
 }
 .star li:before {
   content: '\e963';
