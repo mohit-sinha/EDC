@@ -5762,7 +5762,7 @@ figure.caption-over.center figcaption {
   background-image: url('../../../images/theme-pics/large/large-pic-8.jpg');
 }
 .image-13 {
-  background-image: url('../../../images/theme-pics/large/large-pic-9.jpg');
+  background-image: url('../../../images/portfolio/untitled-5.png');
 }
 .image-14 {
   background-image: url('../../../images/theme-pics/large/large-pic-10.jpg');
@@ -5839,7 +5839,7 @@ figure.caption-over.center figcaption {
 img.full-width,
 img.img-fw {
   max-width: none;
-  width: 100%;
+  
 }
 img.full-height {
   max-width: none;
@@ -9137,7 +9137,7 @@ html.f-vertical-scroll {
   margin-bottom: 15px;
 }
 .mb {
-  margin-bottom: 30px;
+  margin-bottom: 80px;
 }
 .mt-large {
   margin-top: 60px;

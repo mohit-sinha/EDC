@@ -1,2 +1,0 @@
-# EDC
-Website
